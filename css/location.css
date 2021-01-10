@@ -1,0 +1,54 @@
+.location_header {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../images/10.jpg');
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+.location_header h1 {
+    color: #fff;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.location_header p {
+    color: #fff;
+}
+.find {
+    background-color: #ce8958;
+    padding: 3%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.find input {
+    padding: 4%;
+    width: 200%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin: 2%;
+}
+.find input:placeholder-shown {
+    background-color: #ce8958;
+    color: #fff;
+}
+.location_title {
+    padding: 5%;
+}
+.location_title h5 {
+    color: #459cac;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .find input {
+        width: 110%;
+    }
+}

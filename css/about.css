@@ -1,0 +1,15 @@
+.content {
+    padding: 10%;
+}
+.content h4 {
+    font-size: 180%;
+    text-align: center;
+    font-weight: bold;
+    color: #4099a9;
+}
+.content p {
+    color: grey;
+}
+li {
+    color: grey;
+}

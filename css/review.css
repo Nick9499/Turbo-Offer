@@ -1,0 +1,95 @@
+.review_top {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.review_top h1 {
+    margin-top: 5%;
+    font-weight: bold;
+    color: #53a3b2;
+    font-size: 270%;
+    margin-bottom: 1%;
+}
+.review_top p {
+    color: grey;
+    font-size: 110%;
+}
+.review_top input {
+    width: 50%;
+    margin-top: 1%;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.review_top button {
+    width: 10%;
+    color: #fff;
+}
+.review_top button::placeholder {
+    color: lightgray;
+}
+.review_icon {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.review_icon h5 {
+    color: #258b9e;
+    font-size: 110%;
+    font-weight: 550;
+    margin-bottom: 5%;
+}
+.review_icon p {
+    color: grey;
+    font-size: 90%;
+}
+.icon img {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 5%;
+}
+.icon {
+    padding: 2%;
+}
+.review_1 {
+    display: flex;
+    padding: 5%;
+    padding-bottom: 0;
+}
+.review,
+.user p {
+    font-size: 75%;
+}
+.review_card {
+    border: 1px solid #fff;
+    padding: 2%;
+    padding-bottom: 0;
+    border-radius: 10px;
+    margin: 1%;
+    margin-bottom: 0;
+    background: #f3f5f8;
+}
+.user > p:first-child {
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    .review_card,
+    .reviews,
+    .review_1 {
+        display: grid;
+    }
+    .review_icon {
+        display: grid;
+    }
+    .review_top input {
+        width: 100%;
+        margin-top: 3%;
+    }
+    .review_top button {
+        width: 50%;
+    }
+}

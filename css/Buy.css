@@ -1,0 +1,81 @@
+* {
+    overflow: hidden;
+}
+.buy {
+    padding: 3%;
+    padding-top: 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.buy_left {
+    flex: 3;
+    display: flex;
+
+    flex-direction: column;
+}
+.buy_left h1 {
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.buy_left p {
+    color: #6682a4;
+    font-size: 110%;
+    margin-bottom: 3%;
+}
+.buy_left input {
+    width: 80%;
+    margin-bottom: 5%;
+    outline: none;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.buy_left input::placeholder {
+    background-color: #f3f5f8;
+}
+.buy_left button {
+    width: 20%;
+}
+.buy_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.agree_card {
+    border: 1px solid lightgrey;
+    padding: 7%;
+    padding-top: 15%;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin-bottom: 5%;
+}
+.buy_right h4 {
+    transform: translateY(70%);
+}
+.buy_right h2 {
+    color: #2a425e;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+.buyRight_img {
+    width: 100%;
+}
+.buy_right p {
+    color: #488490;
+}
+@media screen and (max-width: 800px) {
+    .buy {
+        display: grid;
+    }
+    .buy_right {
+        margin-bottom: 0;
+    }
+    .buy_left button {
+        width: 40%;
+    }
+}
