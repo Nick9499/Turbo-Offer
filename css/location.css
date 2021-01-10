@@ -48,7 +48,7 @@
     text-align: center;
 }
 @media screen and (max-width: 800px) {
-    .find input {
-        width: 110%;
+    .search input {
+        width: 100%;
     }
 }

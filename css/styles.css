@@ -7,6 +7,9 @@
     font-family: poppins;
     scroll-behavior: smooth;
 }
+body {
+    overflow: hidden;
+}
 html {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -137,9 +140,10 @@ nav ul.menu-area ul li a:hover {
 }
 
 .hero {
-    background-image: url('../images/5.png');
+    background-image: url('../images/2.jpg');
     object-fit: contain;
     background-size: cover;
+    background-blend-mode: color-burn;
     padding: 10%;
     height: 100vh;
 }
@@ -360,6 +364,15 @@ nav ul.menu-area ul li a:hover {
     }
     .copyr {
         padding: 8%;
+    }
+    .rc_icon span {
+        margin-left: 25%;
+    }
+    .meet {
+        margin-top: 20%;
+    }
+    .Home-card-2 {
+        width: 120%;
     }
 }
 .logo {
