@@ -100,7 +100,7 @@
 section {
     margin-top: 5%;
     width: 100%;
-    background: #fff;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,10 +207,26 @@ section {
     .price_meet {
         display: grid;
     }
+    .answer p {
+        font-size: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .accordion-link {
+        font-size: 90%;
+    }
 }
 .price_toggle {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
     align-items: center;
+}
+.names > p > span {
+    padding-right: 5%;
+    font-weight: bolder;
+}
+.names p {
+    font-size: 100%;
+    padding: 1%;
 }
