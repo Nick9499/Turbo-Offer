@@ -85,4 +85,9 @@
     .cardLeft_content {
         display: grid;
     }
+    .card_left,
+    .card_right {
+        margin-left: 10%;
+        width: 80%;
+    }
 }
