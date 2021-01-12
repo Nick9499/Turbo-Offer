@@ -215,6 +215,20 @@ section {
     .accordion-link {
         font-size: 90%;
     }
+    .price_top input {
+        width: 100%;
+        padding: 3%;
+    }
+    .price_top button {
+        width: 60%;
+    }
+    .price_request input {
+        width: 100%;
+        padding: 3%;
+    }
+    .price_request button {
+        width: 60%;
+    }
 }
 .price_toggle {
     display: flex;

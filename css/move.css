@@ -84,4 +84,12 @@
     .moov_meet {
         display: grid;
     }
+    .move_cards {
+        padding: 5%;
+        margin: 5%;
+    }
+    .moovMeet_left p {
+        font-size: 90%;
+        padding: 4%;
+    }
 }

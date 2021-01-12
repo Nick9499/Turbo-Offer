@@ -168,4 +168,23 @@ body {
         margin-bottom: 5%;
         display: grid;
     }
+    .card_right p {
+        font-size: 90%;
+        padding: 3%;
+    }
+    .card1_left p {
+        font-size: 90%;
+        padding: 2%;
+    }
+    .started h1 {
+        font-size: 140%;
+        padding: 10%;
+    }
+    .started input {
+        width: 90%;
+        padding: 3%;
+    }
+    .started button {
+        width: 60%;
+    }
 }

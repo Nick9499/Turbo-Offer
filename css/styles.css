@@ -13,6 +13,7 @@ body {
 html {
     overflow-x: hidden;
     overflow-y: scroll;
+
     width: 100%;
     height: 100%;
 }
@@ -20,7 +21,9 @@ html {
     width: 100%;
 }
 nav {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
     background: #fff;
     font-size: 16px;
     border-bottom: 1px solid lightgrey;
@@ -35,11 +38,12 @@ nav > ul {
     width: 100vw;
     margin: 0 auto;
     padding: 0;
-    justify-content: center;
-    left: -20%;
+    justify-content: space-between;
+    left: -40%;
 }
 nav a {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     color: #3e618a;
     font-weight: bold;
     text-decoration: none;
@@ -73,7 +77,7 @@ nav > ul > li:hover {
 nav ul.menu-area {
     padding: 10px -20px 20px 170px;
     background: #fff;
-    text-align: center;
+
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     z-index: 1;
     position: absolute;
@@ -82,9 +86,9 @@ nav ul.menu-area {
     display: -ms-flexbox;
     display: -o-flex;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 1170px;
+    width: 800px;
     top: -9999px;
     left: -100%;
 }
@@ -118,8 +122,13 @@ nav ul.menu-area ul li a:hover {
 .nav-12 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-@media screen and (max-width: 46em) {
+.nav-12 p {
+    font-size: 80%;
+}
+
+@media screen and (max-width: 800px) {
     .res-menu {
         display: none;
     }
@@ -152,7 +161,7 @@ nav ul.menu-area ul li a:hover {
     object-fit: contain;
     background-size: cover;
     padding: 10%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .hero h1 {
@@ -188,7 +197,8 @@ nav ul.menu-area ul li a:hover {
     width: 15%;
     margin-left: 2%;
     color: #fff;
-    background-color: #e47528;
+    background-color: #0b5ed7;
+    border-radius: 10px;
     border: none;
     font-weight: bolder;
 }
@@ -331,7 +341,7 @@ nav ul.menu-area ul li a:hover {
 .copyr p {
     color: #e8eaeb;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .one {
         flex: 0.5;
         margin-bottom: 5%;
@@ -351,6 +361,10 @@ nav ul.menu-area ul li a:hover {
     nav ul.menu-area {
         padding: 10px 210px 0 40px;
     }
+    .hero button {
+        margin-top: 5%;
+        width: 30%;
+    }
 }
 .answer p {
     font-size: 100%;
@@ -359,7 +373,7 @@ nav ul.menu-area ul li a:hover {
     font-size: 120%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body {
         overflow: hidden;
     }
@@ -385,7 +399,10 @@ nav ul.menu-area ul li a:hover {
         padding: 8%;
     }
     .rc_icon span {
-        margin-left: 25%;
+        margin-left: 40%;
+    }
+    .rc_body p {
+        margin-left: 10%;
     }
     .meet {
         margin-top: 20%;
@@ -410,10 +427,11 @@ nav ul.menu-area ul li a:hover {
         font-weight: bold;
     }
 }
-
 .logo {
-    width: 80%;
+    width: 15%;
+    margin-left: 87%;
 }
+
 .Home-card1 {
     margin-top: 5%;
     padding: 5%;
@@ -457,14 +475,15 @@ nav ul.menu-area ul li a:hover {
 .Home-card-2 {
     padding: 5%;
     position: relative;
+    transform: translateY(-8%);
     border: 1px solid lightgray;
     border-left: 0;
-    border-radius: 10px;
+    border-radius: 50px;
     width: 50%;
     margin: 3%;
     margin-left: 0;
-    height: 193vh;
-    transform: translateX(-10%);
+    height: 190vh;
+    margin-left: 5%;
     box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.1);
     background: #fff;
     z-index: 1;
@@ -517,6 +536,36 @@ nav ul.menu-area ul li a:hover {
     .request_content {
         display: grid;
     }
+    .logo {
+        margin: -4%;
+        width: 150px;
+        padding: 2%;
+    }
+    .Home-card-2 {
+        padding-right: 5%;
+    }
+    .hero h1 {
+        font-size: 150%;
+    }
+    .hero p {
+        font-size: 90%;
+    }
+    .hero button {
+        width: 100%;
+    }
+    .hero {
+        height: 70vh;
+    }
+    .Home-card1 {
+        height: 130vh;
+    }
+    .Home-card-2 {
+        height: 145vh;
+        margin-bottom: 0%;
+    }
+    .meet {
+        margin-top: 0;
+    }
 }
 .one > a:hover {
     opacity: 0.8;
@@ -532,4 +581,7 @@ nav ul.menu-area ul li a:hover {
 }
 .five > a:hover {
     opacity: 0.8;
+}
+.hero button {
+    opacity: 0.9;
 }

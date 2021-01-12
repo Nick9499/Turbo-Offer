@@ -54,6 +54,9 @@
 }
 .icon {
     padding: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: 13%;
 }
 .review_1 {
     display: flex;
@@ -88,8 +91,10 @@
     .review_top input {
         width: 100%;
         margin-top: 3%;
+        padding: 3%;
     }
     .review_top button {
-        width: 50%;
+        margin-top: 3%;
+        width: 70%;
     }
 }
