@@ -524,6 +524,10 @@ nav ul.menu-area ul li a:hover {
 .four p {
     color: #fff;
 }
+.acc {
+    margin-right: 60%;
+    width: 80%;
+}
 
 @media screen and (max-width: 800px) {
     .Home-cards {
@@ -614,6 +618,10 @@ nav ul.menu-area ul li a:hover {
     }
     .meet {
         margin-top: 0;
+    }
+    .acc {
+        margin-right: 40%;
+        width: 90%;
     }
 }
 .one > a:hover {
