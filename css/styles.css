@@ -161,7 +161,7 @@ nav ul.menu-area ul li a:hover {
     object-fit: contain;
     background-size: cover;
     padding: 10%;
-    height: 110vh;
+    height: 90vh;
 }
 
 .hero h1 {
@@ -228,7 +228,7 @@ nav ul.menu-area ul li a:hover {
     display: flex;
     justify-content: space-around;
     padding: 5%;
-    background: #1b6775;
+    background: #164c82;
 }
 .meet h2 {
     color: #fff;
@@ -512,6 +512,19 @@ nav ul.menu-area ul li a:hover {
     text-align: center;
     margin-top: 5%;
 }
+.one p {
+    color: #fff;
+}
+.two p {
+    color: #fff;
+}
+.three p {
+    color: #fff;
+}
+.four p {
+    color: #fff;
+}
+
 @media screen and (max-width: 800px) {
     .Home-cards {
         display: grid;
@@ -551,17 +564,53 @@ nav ul.menu-area ul li a:hover {
         font-size: 90%;
     }
     .hero button {
-        width: 100%;
+        width: 108%;
     }
     .hero {
         height: 70vh;
     }
     .Home-card1 {
         height: 130vh;
+        margin-left: 7%;
+    }
+    .Home-card1 h1 {
+        text-align: center;
+    }
+    .Home-card1 p {
+        text-align: center;
+    }
+    .home_Content {
+        text-align: center;
     }
     .Home-card-2 {
         height: 145vh;
         margin-bottom: 0%;
+    }
+    .bottom h4 {
+        text-align: center;
+    }
+    .bottom p {
+        text-align: center;
+        margin-left: 10%;
+    }
+    .accordion-item {
+        margin-left: -10%;
+    }
+    .container1 {
+        margin-right: 3%;
+    }
+
+    .Home-card-2 p {
+        text-align: center;
+    }
+    .Home-card-2 {
+        margin-right: 5%;
+    }
+    .Home-cards {
+        margin-right: 5%;
+    }
+    .hero input {
+        padding: 3%;
     }
     .meet {
         margin-top: 0;
@@ -585,3 +634,7 @@ nav ul.menu-area ul li a:hover {
 .hero button {
     opacity: 0.9;
 }
+/* .rc_icon > span > img {
+    width: 50%;
+}
+ */

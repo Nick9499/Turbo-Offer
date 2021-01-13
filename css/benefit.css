@@ -90,4 +90,29 @@
         margin-left: 10%;
         width: 80%;
     }
+    .logo1 {
+        text-align: center;
+    }
+    .body {
+        text-align: center;
+    }
+}
+.benefit_top h1 {
+    color: #3b76a2;
+}
+
+#selldirect h3 {
+    color: #3b76a2;
+    font-weight: bold;
+}
+#sellwith h3 {
+    color: #3b76a2;
+    font-weight: bold;
+}
+.body h5 {
+    color: #3b76a2;
+    font-weight: bold;
+}
+.body p {
+    color: grey;
 }
