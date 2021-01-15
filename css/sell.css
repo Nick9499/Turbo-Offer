@@ -73,7 +73,7 @@
     border-right: 1px solid #6db5ff;
     margin-left: 25px;
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
     overflow: hidden;
     max-height: 0;
     transition: all 0.5s ease;

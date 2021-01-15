@@ -170,6 +170,9 @@ body {
         margin-bottom: 5%;
         display: grid;
     }
+    .lap_cards h4 {
+        text-align: center;
+    }
     .card_right p {
         font-size: 90%;
         padding: 3%;
@@ -188,5 +191,8 @@ body {
     }
     .started button {
         width: 60%;
+    }
+    .card_right button {
+        margin-left: 9%;
     }
 }

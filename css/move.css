@@ -135,6 +135,15 @@
         margin-left: 0%;
         text-align: center;
     }
+    .point {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .freeMove_container {
+        display: grid;
+    }
 }
 .additional h1 {
     color: #164c82;

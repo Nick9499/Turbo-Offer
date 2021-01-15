@@ -489,11 +489,11 @@ nav ul.menu-area ul li a:hover {
     z-index: 1;
     margin-bottom: 5%;
 }
-.home_icons {
+.home_icons p {
     color: #164c82;
 }
 .bottom {
-    margin-top: 7%;
+    margin-top: 0%;
 }
 .bottom h4 {
     margin-bottom: 5%;
@@ -536,16 +536,23 @@ nav ul.menu-area ul li a:hover {
     .Home-card1 {
         width: 90%;
 
-        height: 150vh;
+        height: auto;
         margin-bottom: 4%;
+        overflow: scroll;
     }
 
     .Home-card-2 {
         margin: 10%;
         width: 90%;
-
-        height: 160vh;
-        margin-bottom: 4%;
+        height: 200vh;
+        margin-bottom: 5%;
+        overflow-y: scroll;
+    }
+    .accordion h5 {
+        font-size: 100%;
+    }
+    .panel p {
+        font-size: 80%;
     }
     .faqs {
         width: 110%;
@@ -568,13 +575,15 @@ nav ul.menu-area ul li a:hover {
         font-size: 90%;
     }
     .hero button {
-        width: 108%;
+        width: 30%;
+        margin-left: 35%;
+        padding: 3%;
     }
     .hero {
         height: 70vh;
     }
     .Home-card1 {
-        height: 130vh;
+        height: 100%;
         margin-left: 7%;
     }
     .Home-card1 h1 {
@@ -587,7 +596,7 @@ nav ul.menu-area ul li a:hover {
         text-align: center;
     }
     .Home-card-2 {
-        height: 145vh;
+        height: 100%;
         margin-bottom: 0%;
     }
     .bottom h4 {
@@ -623,6 +632,9 @@ nav ul.menu-area ul li a:hover {
         margin-right: 40%;
         width: 90%;
     }
+    .home_body p {
+        font-size: 70%;
+    }
 }
 .one > a:hover {
     opacity: 0.8;
@@ -646,3 +658,10 @@ nav ul.menu-area ul li a:hover {
     width: 50%;
 }
  */
+.answer p {
+    color: #fff;
+}
+.Home-card1,
+.Home-card-2 {
+    height: 100%;
+}
