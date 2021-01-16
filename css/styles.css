@@ -429,7 +429,8 @@ nav ul.menu-area ul li a:hover {
 }
 .logo {
     width: 15%;
-    margin-left: 87%;
+    padding: 0%;
+    margin-left: 60%;
 }
 
 .Home-card1 {
@@ -690,5 +691,8 @@ nav ul.menu-area ul li a:hover {
     .footer {
         display: grid;
         grid-template-columns: 3fr 1fr;
+    }
+    .logo {
+        width: 23%;
     }
 }
