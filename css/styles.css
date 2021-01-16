@@ -128,7 +128,7 @@ nav ul.menu-area ul li a:hover {
     font-size: 80%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .res-menu {
         display: none;
     }
@@ -341,7 +341,7 @@ nav ul.menu-area ul li a:hover {
 .copyr p {
     color: #e8eaeb;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .one {
         flex: 0.5;
         margin-bottom: 5%;
@@ -373,7 +373,7 @@ nav ul.menu-area ul li a:hover {
     font-size: 120%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         overflow: hidden;
     }
@@ -529,7 +529,7 @@ nav ul.menu-area ul li a:hover {
     width: 80%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .Home-cards {
         display: grid;
     }
@@ -664,4 +664,31 @@ nav ul.menu-area ul li a:hover {
 .Home-card1,
 .Home-card-2 {
     height: 100%;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+    .Home-cards {
+        display: flex;
+    }
+    .Home-card1 {
+        width: 100%;
+        margin: 2%;
+    }
+    .Home-card-2 {
+        width: 100%;
+        transform: translateY(-12%);
+        margin: 2%;
+    }
+    .request_content {
+        display: flex;
+    }
+    .rc_icon {
+        margin-right: 100%;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
 }

@@ -83,3 +83,8 @@ p {
     color: grey;
     font-size: 100%;
 }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .sell_header {
+        margin-top: 10%;
+    }
+}
