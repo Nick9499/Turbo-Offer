@@ -55,7 +55,7 @@
                     </li>
                      <li><a href="HowTurbo.html" class="text-primary" style="white-space:nowrap;">How it works</a> </li>
                     
-                    <li><a href="" class="text-info"><i class="fas fa-mobile fa-2x"></i></a></li>
+                     <li><a href="" class="text-primary "><i class="fas fa-mobile fa-2x"></i> <span class="ph">8779888726</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -63,7 +63,16 @@
             <h1>Got questions about selling?</h1>
             <p>If you didn’t see the answer to your question, let us know. We’re here to help.</p>
         </div>
-        <div class="seller_faqs">
+        <div class="btn-group btn-group-toggle toggle" data-toggle="buttons">
+            <button class="btn btn-secondary active" style="background: #164C82;"  onclick="sellFaqs()">
+                Sell
+            </label>
+            <button class="btn btn-secondary" style="background: #164C82;"  onclick="companyFaqs()">
+                Company
+            </label>
+          
+        </div>
+        <div class="seller_faqs" id="sell">
             <h3>Seller FAQs </h3>
             <h4>General</h4>
              <div class="accordion">
@@ -203,8 +212,19 @@
              </div>
              <div class="panel">
                  <p>Turbo Offers provides our customers with the convenience of signing documents electronically with two of the leading electronic signature providers, DocuSign and HelloSign. You can learn about their specific technologies by visiting <a href='https://www.hellosign.com/trust/security/encryption'>https://www.hellosign.com/trust/security/encryption</a> and <a href='https://www.docusign.com/how-it-works/security'>https://www.docusign.com/how-it-works/security</a>. Additionally, you should know that Turbo Offer, LLC does not collect or store any sensitive information. The security of your information throughout the entire process is part of our promise of a better experience with Turbo Offer. For more information, please view our privacy policy.
-Turbo Offers does not sell or share your information.</p>
+                    Turbo Offers does not sell or share your information.</p>
+            </div>
+        </div>
+        <div class="company_faqs" id="company">
+            <h3>Company FAQs </h3>
+            <div class="accordion">
+                 <div class="icon"></div>
+                 <h5>Is my information secure?</h5>
              </div>
+             <div class="panel">
+                 <p>Turbo Offers provides our customers with the convenience of signing documents electronically with two of the leading electronic signature providers, DocuSign and HelloSign. You can learn about their specific technologies by visiting <a href='https://www.hellosign.com/trust/security/encryption'>https://www.hellosign.com/trust/security/encryption</a> and <a href='https://www.docusign.com/how-it-works/security'>https://www.docusign.com/how-it-works/security</a>. Additionally, you should know that Turbo Offer, LLC does not collect or store any sensitive information. The security of your information throughout the entire process is part of our promise of a better experience with Turbo Offer. For more information, please view our privacy policy.
+                    Turbo Offers does not sell or share your information.</p>
+            </div>
         </div>
 
 
@@ -262,6 +282,7 @@ Turbo Offers does not sell or share your information.</p>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <script src="../script/jquery.slicknav.min.js"></script>      
         <script src="../script/sell.js"></script>
+        <script src="./script/pricing.js"></script>
         <script>
             $('.res-menu').slicknav()
         </script>

@@ -46,7 +46,7 @@ nav > ul {
 nav a {
     display: flex;
     justify-content: space-between;
-    color: #3e618a;
+    color: #164c82;
     font-weight: bold;
     text-decoration: none;
 }
@@ -374,6 +374,9 @@ nav ul.menu-area ul li a:hover {
 .accordion-link {
     font-size: 120%;
 }
+.ph {
+    margin-left: 5%;
+}
 
 @media screen and (max-width: 768px) {
     body {
@@ -428,11 +431,14 @@ nav ul.menu-area ul li a:hover {
     .dropdown a {
         font-weight: bold;
     }
+    .ph {
+        margin-left: 1%;
+    }
 }
 .logo {
     width: 10%;
     padding: 0%;
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 .Home-card1 {
@@ -670,7 +676,7 @@ nav ul.menu-area ul li a:hover {
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .hero {
-        height: 50vh;
+        height: 73vh;
     }
     .Home-cards {
         display: flex;

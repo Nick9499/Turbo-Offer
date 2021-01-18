@@ -6,6 +6,8 @@
 .slicknav_btn,
 .slicknav_nav .slicknav_item {
     cursor: pointer;
+
+    top: 0;
 }
 
 .slicknav_menu,
@@ -127,8 +129,6 @@
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background: #ccc;
-    color: #fff;
 }
 .slicknav_nav a {
     text-decoration: none;
