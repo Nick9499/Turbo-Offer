@@ -39,8 +39,8 @@ nav > ul {
     width: 100vw;
     margin: 0 auto;
     padding: 0;
-    justify-content: space-between;
-    left: -40%;
+    justify-content: space-evenly;
+    left: 0%;
     font-size: 110%;
 }
 nav a {
@@ -63,6 +63,7 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     opacity: 0.6;
 }
+
 .menu-area > ul > li > a:hover {
     opacity: 0.7;
 }
@@ -435,11 +436,6 @@ nav ul.menu-area ul li a:hover {
         margin-left: 1%;
     }
 }
-.logo {
-    width: 10%;
-    padding: 0%;
-    margin-left: 70%;
-}
 
 .Home-card1 {
     margin-top: 5%;
@@ -537,7 +533,9 @@ nav ul.menu-area ul li a:hover {
     margin-right: 60%;
     width: 80%;
 }
-
+.logo {
+    width: 100%;
+}
 @media screen and (max-width: 768px) {
     .Home-cards {
         display: grid;
@@ -571,8 +569,9 @@ nav ul.menu-area ul li a:hover {
     }
     .logo {
         margin: -4%;
-        width: 150px;
+        width: 100px;
         padding: 2%;
+        margin-left: 35%;
     }
     .Home-card-2 {
         padding-right: 5%;
@@ -701,6 +700,6 @@ nav ul.menu-area ul li a:hover {
         grid-template-columns: 3fr 1fr;
     }
     .logo {
-        width: 23%;
+        width: 100%;
     }
 }
