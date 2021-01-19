@@ -110,6 +110,7 @@
     -moz-border-radius: 4px;
     border-radius: 4px;
     background-color: #164c82;
+    float: left;
 }
 .slicknav_nav {
     clear: both;
