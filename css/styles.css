@@ -673,7 +673,12 @@ nav ul.menu-area ul li a:hover {
 .Home-card-2 {
     height: 100%;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+    .logo {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .hero {
         height: 73vh;
     }
@@ -698,8 +703,5 @@ nav ul.menu-area ul li a:hover {
     .footer {
         display: grid;
         grid-template-columns: 3fr 1fr;
-    }
-    .logo {
-        width: 100%;
     }
 }
