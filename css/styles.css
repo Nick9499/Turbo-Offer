@@ -278,6 +278,9 @@ nav ul.menu-area ul li a:hover {
     margin: 10%;
     color: #164c82;
 }
+.rc_icon > span > img {
+    width: 150px;
+}
 .color {
     margin-top: 5%;
     display: flex;
@@ -325,8 +328,10 @@ nav ul.menu-area ul li a:hover {
     display: flex;
     flex-direction: column;
 }
-.five > a > span > i {
-    padding-left: 0%;
+.five {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 30%;
 }
 .footer a {
     text-decoration: none;

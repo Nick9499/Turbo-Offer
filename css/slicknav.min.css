@@ -63,7 +63,7 @@
 }
 .slicknav_menu:after,
 .slicknav_menu:before {
-    content: ' ';
+    content: '';
     display: table;
 }
 .slicknav_menu:after {

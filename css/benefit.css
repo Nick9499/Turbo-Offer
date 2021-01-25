@@ -30,26 +30,34 @@
     padding: 3%;
 }
 .card_left {
-    border: 1px solid lightgray;
+    border: 1px solid white;
     margin: 3%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #f3f5f8;
     width: 50%;
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.1);
+}
+.card_left:hover {
+    box-shadow: 0 64px 128px 0 rgba(0, 0, 0, 0.1);
 }
 .card_right {
-    border: 1px solid lightgray;
+    border: 1px solid white;
     margin: 3%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #f3f5f8;
     width: 50%;
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.1);
+}
+.card_right:hover {
+    box-shadow: 0 64px 128px 0 rgba(0, 0, 0, 0.1);
 }
 .card_logo {
     width: 30%;

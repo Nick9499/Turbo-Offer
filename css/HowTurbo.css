@@ -13,6 +13,7 @@
 }
 .title p {
     text-align: center;
+    color: gray;
 }
 body {
     background: #fff;
@@ -44,6 +45,7 @@ body {
 .card_right p {
     margin-bottom: 3%;
     font-size: 120%;
+    color: gray;
 }
 .card_right button {
     color: #fff;
@@ -89,6 +91,7 @@ body {
 }
 .card1_left p {
     font-size: 120%;
+    color: gray;
 }
 .list-insted {
     background: #498691;
@@ -129,6 +132,9 @@ body {
     color: #2a3646;
     margin-bottom: 10%;
     font-size: 130%;
+}
+.lap_cards p {
+    color: gray;
 }
 .started {
     display: flex;
