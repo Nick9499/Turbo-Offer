@@ -6,7 +6,6 @@
 .slicknav_btn,
 .slicknav_nav .slicknav_item {
     cursor: pointer;
-
     top: 0;
 }
 
@@ -29,7 +28,7 @@
     display: block;
     line-height: 1.188em;
     float: left;
-    color: #fff;
+    color: #333;
     font-weight: 700;
     text-shadow: 0 1px 3px #333;
 }
@@ -114,7 +113,7 @@
 }
 .slicknav_nav {
     clear: both;
-    color: #fff;
+    color: #333;
     margin: 0;
     font-size: 0.875em;
 }
@@ -133,13 +132,13 @@
 }
 .slicknav_nav a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 .slicknav_nav a:hover {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background: #ccc;
+
     color: #222;
 }
 .slicknav_nav .slicknav_txtnode {
@@ -151,10 +150,10 @@
     margin: 0;
 }
 .slicknav_brand {
-    float: left;
-    color: #fff;
-    font-size: 18px;
+    color: #164c82;
+    font-size: 170%;
     line-height: 30px;
-    padding: 7px 12px;
+    padding-right: 4%;
     height: 44px;
+    float: right;
 }

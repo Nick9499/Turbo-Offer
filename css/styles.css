@@ -163,6 +163,7 @@ nav ul.menu-area ul li a:hover {
         url(../images/2.jpg);
     object-fit: contain;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 10%;
     height: 90vh;
 }
@@ -373,6 +374,12 @@ nav ul.menu-area ul li a:hover {
         margin-top: 5%;
         width: 30%;
     }
+    .hero {
+        background-size: 100vw 100vw;
+    }
+    .five {
+        gap: 10%;
+    }
 }
 .answer p {
     font-size: 100%;
@@ -410,7 +417,8 @@ nav ul.menu-area ul li a:hover {
         padding: 8%;
     }
     .rc_icon span {
-        margin-left: 40%;
+        display: flex;
+        margin-left: 25%;
     }
     .rc_body p {
         margin-left: 10%;
