@@ -157,3 +157,17 @@
     height: 44px;
     float: right;
 }
+.slicknav_brand span {
+    margin-left: -120%;
+}
+.slicknav_brand i {
+    margin-left: 120%;
+}
+@media screen and (min-width: 768px) {
+    .slicknav_brand span {
+        margin-left: -370%;
+    }
+    .slicknav_brand i {
+        margin-left: 370%;
+    }
+}
