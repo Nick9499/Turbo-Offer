@@ -76,7 +76,13 @@
 .user > p:first-child {
     font-weight: bold;
 }
-@media screen and (max-width: 800px) {
+.icon img {
+    width: 100%;
+}
+.review_icon {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
     .review_card,
     .reviews,
     .review_1 {
@@ -95,16 +101,30 @@
         width: 70%;
     }
     .icon {
-        margin-left: 20%;
-        margin-right: 5%;
-        margin-top: 13%;
+        text-align: center;
+    }
+    .icon img {
+        width: 100%;
     }
     .review_card {
         padding: 5%;
+    }
+    .review_top {
+        margin-top: 20%;
+    }
+    .icon p {
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .reviews {
         grid-template-columns: 1fr 1fr;
+    }
+    .review_top {
+        margin-top: 5%;
+    }
+    .icon img {
+        width: 100%;
     }
 }

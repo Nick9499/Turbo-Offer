@@ -10,7 +10,7 @@
             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="../css/slicknav.min.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="../css/about.css">
         <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
@@ -59,7 +59,64 @@
                 </ul>
             </nav>
         </div>
-
+        <div class="mobile-container">
+            <div class="topnav">
+                <div class="flex">
+                    <div class="hamburger">
+                        <a
+                            href="javascript:void(0);"
+                            class="icon"
+                            onclick="myFunction()"
+                        >
+                            <i class="bx bx-menu-alt-left bx-md"></i>
+                        </a>
+                    </div>
+                    <div class="brand">
+                        <a href="index.html"><img src="./images/Turbo Offers Logo.svg" alt=""></a>
+                    </div>
+                    <div class="mobile-icon">
+                        <a href="#"><i class="bx bx-mobile-alt bx-md"></i></a>
+                    </div>
+                </div>
+                <div id="myLinks" class="mylink">
+                    <button class="dropdown-btn" src=>
+                        Sell
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="Request.html"
+                            >Offer Request <br />
+                            <span>It only takes 5 minutes to tell us about your home.</span></a
+                        >
+                        <a href="Benefit.html"
+                            >Benefits<br />
+                            <span>Learn more about stress-free home selling.</span></a
+                        >
+                        <a href="Review.html"
+                            >Customer review <br />
+                            <span>Over a thousand reviews from satisfied customers.</span></a
+                            >
+                            <a href="HowTurbo.html"
+                                >How it works<br />
+                                <span>A guide to how easy it is to sell with us.</span></a
+                            >
+                        <a href="Move.html"
+                            >Free local move <br />
+                            <span>Moving locally is free. This option is included in all offers.</span></a
+                        >
+                        <a href="Sell.html"
+                            >Seller FAQs<br />
+                            <span>Straightforward answers to most of your questions.</span></a
+                        >
+                        <a href="Pricing.html"
+                            >Pricing<br />
+                            <span>Details on our pricing and fees.</span></a
+                        >
+                    </div>
+                    <a href="HowTurbo.html">How it works</a>
+                </div>
+            </div>
+        </div>
 
         <div class="content">
             <h4>The main concept behind Turbo Offers:</h4>
@@ -146,14 +203,37 @@
             </div>
            
         </div>
-          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"                                          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script src="../script/jquery.slicknav.min.js"></script>      
+     
+            
         <script src="../script/app.js"></script>
-        <script>
-            $('.res-menu').slicknav()
-        </script>
+         <script>
+           function myFunction() {
+            var x = document.getElementById('myLinks')
+            if (x.style.display === 'block') {
+                x.style.display = 'none'
+            } else {
+                x.style.display = 'block'
+            }
+        }
+
+            var dropdown = document.getElementsByClassName('dropdown-btn')
+            var i
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener('click', function () {
+                    this.classList.toggle('active')
+                    var dropdownContent = this.nextElementSibling
+                    if (dropdownContent.style.display === 'block') {
+                        dropdownContent.style.display = 'none'
+                    } else {
+                        dropdownContent.style.display = 'block'
+                    }
+                })
+            }
+       </script>
+      
 </body>
 </html>

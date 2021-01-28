@@ -196,6 +196,9 @@ section {
     width: 20%;
 }
 @media screen and (max-width: 768px) {
+    .price_top {
+        margin-top: 20%;
+    }
     .price_cards {
         display: grid;
     }
@@ -248,5 +251,8 @@ section {
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .answer p {
         font-size: 120%;
+    }
+    .price_top {
+        margin-top: 10%;
     }
 }

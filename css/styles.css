@@ -167,6 +167,9 @@ nav ul.menu-area ul li a:hover {
     padding: 10%;
     height: 90vh;
 }
+.mobile-container {
+    display: none;
+}
 
 .hero h1 {
     color: #fff;
@@ -417,7 +420,6 @@ nav ul.menu-area ul li a:hover {
         padding: 8%;
     }
     .rc_icon span {
-        display: flex;
         margin-left: 25%;
     }
     .rc_body p {
@@ -550,6 +552,9 @@ nav ul.menu-area ul li a:hover {
     width: 100%;
 }
 @media screen and (max-width: 768px) {
+    .hero {
+        margin-top: 20%;
+    }
     .Home-cards {
         display: grid;
     }
@@ -693,6 +698,7 @@ nav ul.menu-area ul li a:hover {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .hero {
+        margin-top: 5%;
         height: 73vh;
     }
     .Home-cards {
@@ -716,5 +722,105 @@ nav ul.menu-area ul li a:hover {
     .footer {
         display: grid;
         grid-template-columns: 3fr 1fr;
+    }
+}
+
+.mobile-container {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-container {
+        visibility: visible;
+        z-index: 9;
+        position: fixed;
+        width: 100%;
+        display: block;
+    }
+
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        position: relative;
+
+        width: 100%;
+        box-shadow: 0 2px 0px 0px rgba(211, 211, 211, 0.4);
+        z-index: inherit;
+        transition: width 1s ease;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: #0d6efd;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 26px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: rgb(252, 252, 252);
+        left: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .brand img {
+        width: 130%;
+    }
+
+    .mylink {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+    }
+    .mylink a,
+    .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        margin-top: 5%;
+        text-decoration: none;
+        font-size: 20px;
+        color: #0d6efd;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+    .mylink a:hover,
+    .dropdown-btn:hover {
+        color: #aaaaaa;
+    }
+    .dropdown-container {
+        display: none;
+        background-color: #ffffff;
+        padding-left: 8px;
+        color: rgb(49, 49, 49);
+    }
+    .dropdown-container a {
+        font-size: 16px;
+        color: #164c82;
+    }
+    .dropdown-container span {
+        font-size: 12px;
+        color: #0d6efd;
+    }
+
+    .fa-caret-down {
+        float: right;
+        padding-right: 8px;
     }
 }

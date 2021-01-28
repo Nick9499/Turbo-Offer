@@ -201,6 +201,9 @@ body {
     .card_right button {
         margin-left: 9%;
     }
+    .title {
+        margin-top: 20%;
+    }
 }
 @media screen and (min-width: 768px) {
     .how_card1,
@@ -209,11 +212,14 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .card_left img {
         width: 100%;
     }
     .card2_right img {
         width: 100%;
+    }
+    .title {
+        margin-top: 5%;
     }
 }

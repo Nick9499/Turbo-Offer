@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ff4a37712d.js" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -11,7 +12,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="./css/slicknav.min.css">
-
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="stylesheet" href="./css/benefit.css">
 
@@ -60,6 +61,64 @@
                 </ul>
             </nav>
         </div>
+        <div class="mobile-container">
+            <div class="topnav">
+                <div class="flex">
+                    <div class="hamburger">
+                        <a
+                            href="javascript:void(0);"
+                            class="icon"
+                            onclick="myFunction()"
+                        >
+                            <i class="bx bx-menu-alt-left bx-md"></i>
+                        </a>
+                    </div>
+                    <div class="brand">
+                        <a href="index.html"><img src="./images/Turbo Offers Logo.svg" alt=""></a>
+                    </div>
+                    <div class="mobile-icon">
+                        <a href="#"><i class="bx bx-mobile-alt bx-md"></i></a>
+                    </div>
+                </div>
+                <div id="myLinks" class="mylink">
+                    <button class="dropdown-btn" src=>
+                        Sell
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="Request.html"
+                            >Offer Request <br />
+                            <span>It only takes 5 minutes to tell us about your home.</span></a
+                        >
+                        <a href="Benefit.html"
+                            >Benefits<br />
+                            <span>Learn more about stress-free home selling.</span></a
+                        >
+                        <a href="Review.html"
+                            >Customer review <br />
+                            <span>Over a thousand reviews from satisfied customers.</span></a
+                            >
+                            <a href="HowTurbo.html"
+                                >How it works<br />
+                                <span>A guide to how easy it is to sell with us.</span></a
+                            >
+                        <a href="Move.html"
+                            >Free local move <br />
+                            <span>Moving locally is free. This option is included in all offers.</span></a
+                        >
+                        <a href="Sell.html"
+                            >Seller FAQs<br />
+                            <span>Straightforward answers to most of your questions.</span></a
+                        >
+                        <a href="Pricing.html"
+                            >Pricing<br />
+                            <span>Details on our pricing and fees.</span></a
+                        >
+                    </div>
+                    <a href="HowTurbo.html">How it works</a>
+                </div>
+            </div>
+        </div>
         <div class="benefit_top">
             <h1>Choose the best option for you!</h1>
             <p>We have solutions tailor-fit for your individual needs. Find out more about our exclusive benefits available for you. </p>
@@ -76,11 +135,55 @@
                 <div class="card_left"  >
                     <div class="cardLeft_content">
                         <div class="logo1">
-                            <img src="./images/broom1.svg" alt="">
+                            <img src="./images/cashOffer.svg" alt="">
                         </div>
                         <div class="body">
-                            <h5>No Showings</h5>
-                            <p>Continue to enjoy your privacy! You don’t have to open your door to strangers to sell your home. </p>
+                            <h5>A Cash Offer in Your Pocket</h5>
+                            <p>List with confidence knowing you have the freedom to activate your competitive Offerpad <a href="#">cash purchase offer</a> at any time. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_right">
+                    <div class="cardRight_content">
+                        <div class="logo1">
+                            <img src="./images/bighouse.svg" alt="">
+                        </div>
+                        <div class="body">
+                            <h5>Free Show-Ready Home Services</h5>
+                            <p>We’ll get your home ready! Receive <a href="#modal1" class="modal-trigger">free services</a> to get show-perfect before going on the market.  </p>
+                            <div id="modal1" class="modal">
+                                <div class="modal-content">
+                                <h4>Modal Header</h4>
+                                <p>A bunch of text</p>
+                                </div>
+                                <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_content">
+                <div class="card_left"  >
+                    <div class="cardLeft_content">
+                        <div class="logo1">
+                            <img src="./images/homeImprove.svg" alt="">
+                        </div>
+                        <div class="body">
+                            <h5>Home Improvement Advance</h5>
+                            <p>Could <a href="#">home updates</a> help you sell for more? No problem, we can advance funds and supply the resources. It’s easy. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_right">
+                    <div class="cardRight_content">
+                        <div class="logo1">
+                            <img src="./images/dedicatedExpert.svg" alt="">
+                        </div>
+                        <div class="body">
+                            <h5>Dedicated Experts and Support</h5>
+                            <p>Your <a href="#">personal team</a> is ready to get you sold and help make sure your home is always ready to show!  </p>
                         </div>
                     </div>
                 </div>
@@ -134,13 +237,30 @@
                         <div class="body">
                             <h5>Move for Free</h5>
                             <p>You read it right! Moving is now free. When you sell to us, you get a free local move with reliable and professional movers.  </p>
+                            <a href="Move.html" class="btn ">See full details</a>
                         </div>
                     </div>
                 </div>
 
             </div>
+               <div class="card_content">
+                <div class="card_left" style="">
+                    <div class="cardLeft_content">
+                        <div class="logo1">
+                            <img src="./images/broom1.svg" alt="">
+                        </div>
+                        <div class="body">
+                            <h5>No Showings</h5>
+                            <p>Continue to enjoy your privacy! You don’t have to open your door to strangers to sell your home.  </p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
             </div>
         </div>
+        
         
     <div class="color">
                 <div class="orange">
@@ -201,14 +321,36 @@
             </div>
            
         </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"                                          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script src="./script/jquery.slicknav.min.js"></script>      
+        
+          
         <script src="./script/app.js"></script>
-        <script>
-            $('.res-menu').slicknav()
-        </script>
-</body>
+         <script>
+           function myFunction() {
+            var x = document.getElementById('myLinks')
+            if (x.style.display === 'block') {
+                x.style.display = 'none'
+            } else {
+                x.style.display = 'block'
+            }
+        }
+
+            var dropdown = document.getElementsByClassName('dropdown-btn')
+            var i
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener('click', function () {
+                    this.classList.toggle('active')
+                    var dropdownContent = this.nextElementSibling
+                    if (dropdownContent.style.display === 'block') {
+                        dropdownContent.style.display = 'none'
+                    } else {
+                        dropdownContent.style.display = 'block'
+                    }
+                })
+            }
+       </script>
+        
 </html>

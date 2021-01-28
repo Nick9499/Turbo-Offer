@@ -72,10 +72,8 @@
 .logo1 img {
     width: 100%;
     max-width: 120px;
-    padding: 6%;
 }
 .logo1 {
-    margin: 5%;
     width: 100%;
 }
 @media screen and (max-width: 800px) {
@@ -123,4 +121,38 @@
 }
 .body p {
     color: grey;
+}
+@media screen and (max-width: 768px) {
+    .benefit_top {
+        margin-top: 20%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .benefit_top {
+        margin-top: 5%;
+    }
+    .logo1 img {
+        width: 100%;
+    }
+    .cardLeft_content,
+    .cardRight_content {
+        display: grid;
+        gap: 10%;
+        grid-template-columns: 0.5fr 1fr;
+    }
+}
+.body > p > a {
+    font-weight: bold;
+    color: #3b76a2;
+}
+.body > p > a:hover {
+    text-decoration: none;
+}
+.body .btn {
+    background: #3b76a2;
+    color: #fff;
+}
+.body .btn:hover {
+    opacity: 0.8;
 }
