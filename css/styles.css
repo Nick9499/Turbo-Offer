@@ -23,7 +23,7 @@ html {
 nav {
     position: fixed;
     top: 0;
-    opacity: 0.9;
+
     background: #fcfcfc;
     font-size: 16px;
     border-bottom: 1px solid lightgrey;
@@ -36,13 +36,17 @@ nav > ul {
     display: -moz-flex;
     display: -o-flex;
     display: flex;
+    justify-content: space-between;
+
     width: 100vw;
     margin: 0 auto;
     padding: 0;
-    justify-content: space-evenly;
+    padding-right: 2%;
+
     left: 0%;
     font-size: 110%;
 }
+
 nav a {
     display: flex;
     justify-content: space-between;
@@ -93,7 +97,7 @@ nav ul.menu-area {
     flex-wrap: wrap;
     width: 800px;
     top: -9999px;
-    left: -100%;
+    left: -10%;
 }
 nav ul li:hover ul.menu-area {
     top: 100%;
@@ -166,6 +170,7 @@ nav ul.menu-area ul li a:hover {
     background-repeat: no-repeat;
     padding: 10%;
     height: 90vh;
+    border-radius: 0% 0% 15% 15%;
 }
 .mobile-container {
     display: none;
@@ -180,6 +185,7 @@ nav ul.menu-area ul li a:hover {
     margin-top: 2%;
     color: #fff;
     font-weight: bold;
+    font-size: 110%;
 }
 .hero button {
     margin-top: 2%;
@@ -271,7 +277,7 @@ nav ul.menu-area ul li a:hover {
 .request_content {
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    padding: 2%;
 }
 .rc1 {
     display: flex;
@@ -495,9 +501,11 @@ nav ul.menu-area ul li a:hover {
 .Home-card-2 {
     padding: 5%;
     position: relative;
-    transform: translateY(-8%);
+    transform: translateY(-6%);
     border: 1px solid lightgray;
     border-left: 0;
+    border-right: 0;
+    border-top: 0;
     border-radius: 50px;
     width: 50%;
     margin: 3%;
@@ -737,7 +745,9 @@ nav ul.menu-area ul li a:hover {
         width: 100%;
         display: block;
     }
-
+    .Home-cards {
+        margin-bottom: 5%;
+    }
     .topnav {
         background-color: rgb(255, 255, 255);
         position: relative;
@@ -822,5 +832,34 @@ nav ul.menu-area ul li a:hover {
     .fa-caret-down {
         float: right;
         padding-right: 8px;
+    }
+    .logo {
+        width: 1%;
+    }
+    .hero {
+        border-radius: 0;
+    }
+}
+.logo {
+    width: 12vh;
+}
+.fix1 {
+    margin-top: 5%;
+}
+.fix2 {
+    margin-top: 3%;
+}
+.fix3 {
+    margin-top: -2%;
+}
+.fix4 {
+    margin-left: -1%;
+}
+.fix5 {
+    margin-left: -2%;
+}
+@media screen and (max-width: 1365px) and (min-width: 1024px) {
+    .logo {
+        width: 100%;
     }
 }

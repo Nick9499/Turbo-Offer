@@ -27,6 +27,7 @@
 
     color: #fff;
 }
+
 .card_content {
     display: flex;
     padding: 3%;
@@ -67,9 +68,9 @@
 }
 .cardLeft_content,
 .cardRight_content {
-    display: flex;
-    justify-content: space-around;
-    padding: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
 }
 .logo1 img {
     width: 100%;
@@ -93,6 +94,7 @@
     .cardRight_content,
     .cardLeft_content {
         display: grid;
+        grid-template-columns: 1fr;
     }
     .card_left,
     .card_right {
