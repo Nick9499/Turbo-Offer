@@ -120,7 +120,7 @@
     margin-top: 3%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .move_top {
         margin-top: 25%;
     }
@@ -165,10 +165,13 @@
     font-weight: bold;
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .move_cards img {
-        max-width: 200px;
-        margin-left: 35%;
-        width: 200px;
+    .move_cards p {
+        font-size: 70%;
+        padding: 5%;
+    }
+    .move_cards {
+        align-items: center;
+        justify-content: space-between;
     }
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
