@@ -8,7 +8,7 @@
 <h2>Preview</h3>
 <hr/>
 <br/>
-<img src='https://github.com/Nick9499/ShopCart1/blob/main/front_end/public/images/preview.png'>
+<img src='https://github.com/Nick9499/Turbo-Offer/blob/main/images/preview.png'>
 <br/>
 <br/>
 <br/>
